@@ -1,0 +1,652 @@
+body {
+  max-width: 1440px;
+  font-family: "Lato", sans-serif;
+}
+
+main {
+  padding-top: 40px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+/* inicio links */
+
+.a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.a:hover {
+  color: #0a5c5c;
+}
+/* fin links */
+/* inicio header */
+
+header {
+  padding-top: 40px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+#logo-img {
+  margin-right: 20px;
+}
+
+/* fin header */
+
+/* inicio hs */
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 48px;
+  color: #0a5c5c;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+/* fin hs */
+
+/* inicio botones */
+
+.button-style {
+  display: block;
+  box-sizing: border-box;
+  padding: 15px 21px;
+  text-decoration: none;
+  color: #ffffff;
+  width: fit-content;
+  border-radius: 12px;
+  font-weight: 700;
+  background-color: #0a5c5c;
+}
+
+.button-style:hover {
+  background-color: #43c0c0;
+}
+
+.button-left {
+  display: block;
+  box-sizing: border-box;
+  padding: 15px 21px;
+  text-decoration: none;
+  color: #ffffff;
+  width: fit-content;
+  border-radius: 12px;
+  font-weight: 700;
+  background-color: #0a5c5c;
+  margin-left: 22px;
+}
+
+.button-left:hover {
+  background-color: #43c0c0;
+}
+
+.button-center {
+  display: block;
+  box-sizing: border-box;
+  padding: 15px 21px;
+  text-decoration: none;
+  color: #ffffff;
+  width: fit-content;
+  border-radius: 12px;
+  font-weight: 700;
+  background-color: #0a5c5c;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-center:hover {
+  background-color: #43c0c0;
+}
+
+/* fin botones */
+
+/* inicio footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 72px 80px 80px;
+  background-color: #a1cee5;
+  width: 100%;
+  margin-top: 100px;
+  padding-top: 50px;
+  margin-left: -100px;
+  padding-right: 100%;
+  height: 200px;
+}
+
+.width-footer {
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+#text-footer {
+  font-size: 30px;
+  line-height: 42px;
+  margin-left: 100px;
+}
+
+.rrss {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 32px;
+}
+
+.padding-social-icons {
+  padding-left: 33px;
+}
+
+/* fin footer */
+
+/* inicio home */
+#intro {
+  background-color: #43c0c0;
+  font-size: 48px;
+  font-weight: 300;
+  width: 100%;
+  margin-left: -100px;
+  padding-right: 100%;
+  height: 384px;
+}
+
+.intro-text {
+  padding-top: 50px;
+  display: block;
+  margin-left: 100px;
+  width: 80%;
+}
+.imagen-izquierda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.imagen-derecha {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #eeebeb;
+}
+
+.resize-image-web {
+  display: block;
+  width: 568px;
+  height: 368px;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.resize-image-cell {
+  display: block;
+  width: 568px;
+  height: 368px;
+  object-fit: contain;
+}
+
+.h2-izquierda {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 20px;
+  margin-left: 22px;
+}
+
+.div-width {
+  width: calc(50% - 89px);
+}
+
+.div-width-texto-derecha {
+  width: calc(50% - 89px);
+  padding-left: 5px;
+}
+
+.p-font {
+  margin: 22px 0 25px 0;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.p-font-izquierda {
+  margin: 22px 0 25px 22px;
+  font-size: 20px;
+  line-height: 28px;
+}
+/* fin home */
+
+/* inicio laptop */
+.intro-contacto {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.p-font-contacto {
+  padding-left: 22px;
+  margin: 22px 0 25px 0;
+  font-size: 20px;
+  line-height: 28px;
+  width: 80%;
+}
+.bk-contacto-intro {
+  background-color: #43c0c0;
+  height: 750px;
+  width: 611px;
+  border-radius: 20px;
+}
+
+.resize-image-contacto {
+  display: block;
+  width: 370px;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.logos-contacto {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 32px;
+  padding-bottom: 50px;
+}
+
+.resize-logo-contactos {
+  display: block;
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+}
+/* fin contacto */
+
+/* inicio laptop */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .intro-contacto {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .p-font-contacto {
+    font-size: 18px;
+  }
+  .imagen-izquierda {
+    flex-direction: column;
+  }
+
+  .imagen-derecha {
+    flex-direction: column-reverse;
+  }
+  .div-width {
+    width: 100%;
+  }
+
+  .div-width-texto-derecha {
+    width: 100%;
+  }
+
+  #intro {
+    font-size: 30px;
+    height: 200px;
+  }
+  .resize-image-web {
+    padding-bottom: 20px;
+  }
+
+  .resize-image-cell {
+    padding-bottom: 20px;
+  }
+  #text-footer {
+    font-size: 20px;
+  }
+  .bk-contacto-intro {
+    margin-top: 20px;
+    height: 600px;
+    width: 611px;
+  }
+}
+/* Fin laptop */
+/* inicio tablet */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .intro-contacto {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .p-font-contacto {
+    font-size: 14px;
+  }
+  .bk-contacto-intro {
+    margin-top: 20px;
+    height: 800px;
+    width: 320px;
+  }
+
+  .resize-image-contacto {
+    width: 300px;
+    height: 300px;
+  }
+  .imagen-izquierda {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .imagen-derecha {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #eeebeb;
+  }
+  .div-width {
+    width: 100%;
+  }
+
+  .div-width-texto-derecha {
+    width: 100%;
+  }
+
+  #intro {
+    font-size: 30px;
+    height: 200px;
+  }
+  .resize-image-web {
+    padding-bottom: 20px;
+  }
+
+  .resize-image-cell {
+    padding-bottom: 20px;
+  }
+  #text-footer {
+    font-size: 20px;
+  }
+  .logos-contacto {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #text-footer {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .resize-image-web {
+    width: 100%;
+    height: 368px;
+  }
+  #intro {
+    font-size: 22px;
+  }
+
+  footer {
+    height: 100px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* Fin tablet */
+/* inicio móvil */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #logo-img {
+    margin-right: 20px;
+    width: 80px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .intro-contacto {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .bk-contacto-intro {
+    margin-top: 20px;
+    height: 800px;
+    width: 320px;
+  }
+
+  .resize-image-contacto {
+    width: 200px;
+    height: 200px;
+  }
+  .imagen-izquierda {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .imagen-derecha {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #eeebeb;
+  }
+  .div-width {
+    width: 100%;
+  }
+
+  .div-width-texto-derecha {
+    width: 100%;
+  }
+
+  .resize-image-web {
+    padding-bottom: 20px;
+  }
+
+  .resize-image-cell {
+    padding-bottom: 20px;
+  }
+  #text-footer {
+    font-size: 20px;
+  }
+  .logos-contacto {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #text-footer {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .resize-image-web {
+    width: 100%;
+    height: 368px;
+  }
+  #intro {
+    font-size: 16px;
+    height: 100px;
+    padding-left: 100%;
+  }
+
+  .intro-text {
+    padding-top: 0px;
+    display: block;
+    margin-left: -150px;
+    margin-right: auto;
+    width: 125%;
+  }
+
+  footer {
+    height: 100px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .button-style {
+    padding: 7px 10px;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .button-left {
+    padding: 7px 10px;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .button-center {
+    padding: 7px 10px;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .imagen-izquierda {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: lex-start;
+    padding-top: 50px;
+  }
+
+  .imagen-derecha {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+  }
+
+  .div-width {
+    width: 100%;
+  }
+
+  .div-width-texto-derecha {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .p-font {
+    margin: 22px 0 25px 0;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .p-font-izquierda {
+    margin: 22px 0 25px 0px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .resize-image-web {
+    display: block;
+    width: 320px;
+
+    object-fit: cover;
+    object-position: 0 0;
+  }
+
+  .resize-image-cell {
+    display: block;
+    width: 320px;
+    object-fit: cover;
+    object-position: 0 0;
+  }
+
+  .p-font-contacto {
+    padding-left: 22px;
+    margin: 22px 0 25px 0;
+    font-size: 16px;
+    line-height: 28px;
+    width: 80%;
+  }
+
+  h2 {
+    width: 100%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .h2-izquierda {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 0px;
+  }
+
+  h3 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  #text-footer {
+    display: none;
+  }
+
+  .contact {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .rrss {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 32px;
+  }
+}
+
+/* fin móvil */
